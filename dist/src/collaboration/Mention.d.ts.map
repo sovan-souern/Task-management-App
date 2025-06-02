@@ -1,0 +1,1 @@
+{"version":3,"file":"Mention.d.ts","sourceRoot":"","sources":["../../../src/collaboration/Mention.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,cAAc,CAAA;AAExC,qBAAa,OAAO;IACX,EAAE,EAAE,MAAM,CAAA;IACV,aAAa,EAAE,IAAI,CAAA;IACnB,SAAS,EAAE,IAAI,CAAA;IACf,MAAM,EAAE,OAAO,CAAA;gBAEV,EAAE,EAAE,MAAM,EAAE,aAAa,EAAE,IAAI;IAOpC,MAAM,CAAC,IAAI,EAAE,GAAG,GAAG,GAAG;CAI9B"}
