@@ -1,0 +1,1 @@
+{"version":3,"file":"Reminder.js","sourceRoot":"","sources":["../../../src/collaboration/Reminder.ts"],"names":[],"mappings":";;;AAEA,MAAa,QAAQ;IAMnB,YAAY,EAAU,EAAE,IAAU,EAAE,OAAe,EAAE,MAAY;QAC/D,IAAI,CAAC,EAAE,GAAG,EAAE,CAAA;QACZ,IAAI,CAAC,IAAI,GAAG,IAAI,CAAA;QAChB,IAAI,CAAC,OAAO,GAAG,OAAO,CAAA;QACtB,IAAI,CAAC,MAAM,GAAG,MAAM,CAAA;IACtB,CAAC;CACF;AAZD,4BAYC"}
