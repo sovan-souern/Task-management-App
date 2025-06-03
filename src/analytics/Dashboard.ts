@@ -16,7 +16,7 @@ export class Dashboard {
     if (total === 0) return "No tasks available"
 
     const percentage = Math.round((this.tasksCompleted / total) * 100)
-    return `Progress: ${percentage}% (${this.tasksCompleted}/${total} tasks completed)`
+    return "Progress: " + percentage + "% (" + this.tasksCompleted + "/" + total + " tasks completed)"
   }
 
   public updateStats(tasks: Task[]): void {

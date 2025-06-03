@@ -17,7 +17,7 @@ class Report {
     }
     export() {
         const reportData = {
-            period: `${this.startDate.toDateString()} - ${this.endDate.toDateString()}`,
+            period: this.startDate.toDateString() + " - " + this.endDate.toDateString(),
             tasksCompleted: this.tasksCompleted,
             tasksMissed: this.tasksMissed,
             tasksDelegated: this.tasksDelegated,
@@ -26,7 +26,7 @@ class Report {
         const blob = new Blob([JSON.stringify(reportData, null, 2)], {
             type: "application/json",
         });
-        return new File([blob], `report-${Date.now()}.json`, {
+        return new File([blob], "report-" + Date.now() + ".json", {
             type: "application/json",
         });
     }

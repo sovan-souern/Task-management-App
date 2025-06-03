@@ -22,7 +22,7 @@ export class AuthService {
 
   public resetPWD(email: string): void {
     // Logic to reset password
-    console.log(`Password reset email sent to ${email}`)
+    console.log("Password reset email sent to " + email)
   }
 
   private generateSessionId(): string {

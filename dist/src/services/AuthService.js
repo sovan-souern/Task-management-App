@@ -22,7 +22,7 @@ class AuthService {
     }
     resetPWD(email) {
         // Logic to reset password
-        console.log(`Password reset email sent to ${email}`);
+        console.log("Password reset email sent to " + email);
     }
     generateSessionId() {
         return "session_" + Math.random().toString(36).substr(2, 9) + Date.now().toString(36);

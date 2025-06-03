@@ -12,7 +12,7 @@ class Dashboard {
         if (total === 0)
             return "No tasks available";
         const percentage = Math.round((this.tasksCompleted / total) * 100);
-        return `Progress: ${percentage}% (${this.tasksCompleted}/${total} tasks completed)`;
+        return "Progress: " + percentage + "% (" + this.tasksCompleted + "/" + total + " tasks completed)";
     }
     updateStats(tasks) {
         this.tasksCompleted = tasks.filter((task) => task.status === "Completed").length;

@@ -8,9 +8,9 @@ const Label_1 = require("./src/project/Label");
 // Initialize the task management system
 const taskSystem = new TaskManagementSystem_1.TaskManagementSystem();
 // Create users exactly as shown in your example
-const user1 = taskSystem.createUser("user-101", "Alex Johnson", "alex.johnson@company.com", "Project Manager");
-const user2 = taskSystem.createUser("user-102", "Sarah Williams", "sarah.w@company.com", "Frontend Developer");
-const user3 = taskSystem.createUser("user-103", "Raj Patel", "raj.patel@company.com", "Backend Developer");
+const user1 = taskSystem.createUser("user-101", "Sovan Souern", "sovansouern@gmail.com", "Project Manager");
+const user2 = taskSystem.createUser("user-102", "Sophean Phouk", "sopheanphouk@gmail.com", "Frontend Developer");
+const user3 = taskSystem.createUser("user-103", "Sreylet Sao", "sreylet@gmail.com", "Backend Developer");
 // Create teams
 const webTeam = taskSystem.createTeam("team-web", "Web Development Team");
 webTeam.addMember(user1);
